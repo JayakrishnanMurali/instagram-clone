@@ -1,7 +1,7 @@
 import React from 'react'
 import './PeopleAvatar.css'
 
-function PeopleAvatar({avatar,user,description,work}) {
+function PeopleAvatar({avatar,user,description}) {
 
     function truncate(str,n) {
         return str?.length >n ? str.substr(0, n-1) + "..." : str;
@@ -24,7 +24,7 @@ function PeopleAvatar({avatar,user,description,work}) {
                 </div>
             </div>
 
-            <h4>{work}</h4>
+            <h4>Follow</h4>
         </div>
     )
 }

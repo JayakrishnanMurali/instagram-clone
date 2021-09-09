@@ -19,6 +19,12 @@
   overflow-x: scroll;
 }
 
+.header__profile {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
 .home__left {
   flex: 0.7;
 }

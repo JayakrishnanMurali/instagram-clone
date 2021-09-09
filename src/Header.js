@@ -27,7 +27,13 @@ function Header() {
                     <AiOutlineCompass className="header__navMenu"/>
                     <AiOutlineHeart className="header__navMenu"/>
                     {/* AVATAR */}
-                    <CgProfile className="header__navMenu" />
+
+                    <img 
+                    className="header__profile"
+                    src="https://api.time.com/wp-content/uploads/2016/10/zayn-malik-one-direction-anxiety-book.jpg?w=824&quality=70" 
+                    alt="" 
+                    />
+
                 </div>
 
             </div>

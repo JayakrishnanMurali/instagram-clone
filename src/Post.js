@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Post.css'
 import { BiDotsHorizontalRounded } from "react-icons/bi";
 import { AiOutlineHeart } from 'react-icons/ai'
@@ -9,6 +9,7 @@ import { VscBookmark, VscSmiley } from 'react-icons/vsc'
 
 
 function Post({avatar,user,location,image,description}) {
+
 
     function truncate(str,n) {
         return str?.length >n ? str.substr(0, n-1) + "..." : str;
