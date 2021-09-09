@@ -10,11 +10,14 @@ function Story({image, user}) {
     return (
         <div className="story">
             <div className="story__container">
-                <img 
-                src={image} 
-                alt="Story avatar" 
-                className="story__img" 
-                />
+                
+                <div className="story__bar">
+                    <img 
+                    src={image} 
+                    alt="Story avatar" 
+                    className="story__img" 
+                    />
+                </div>
 
                 <p className="story__author">{truncate(user,11)}</p>
 

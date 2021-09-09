@@ -14,9 +14,20 @@
   height: 55px;
   object-fit: cover;
   border-radius: 50%;
+  display: block;
+  background-color: white;
+  padding: 2px;
+  /* background: linear-gradient(to bottom, #d82b7e, #f57939); */
+}
+
+.story__bar {
+  display: relative;
+  padding: 2.5px;
+  background: linear-gradient(to bottom, #d82b7e, #f57939);
+  border-radius: 100%;
 }
 
 .story__author {
   font-size: 12px;
-  font-weight: 300;
+  font-weight: 400;
 }
