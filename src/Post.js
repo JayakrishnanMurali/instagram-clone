@@ -57,8 +57,8 @@ function Post({avatar,user,location,image,description}) {
                     <div className="post__social-top">
                         <div className="post__social-likeShare">
                             <AiOutlineHeart className="post__social-Button"/>
-                            <BiMessageSquareDetail className="post__social-Button"/>
-                            <IoPaperPlaneOutline className="post__social-Button"/>
+                            <BiMessageSquareDetail className="post__social-Button comment-btn"/>
+                            <IoPaperPlaneOutline className="post__social-Button share-btn"/>
                         </div>         
                         <VscBookmark className="post__social-Button"/>
                         
@@ -70,7 +70,7 @@ function Post({avatar,user,location,image,description}) {
                         
                         <div className="post__social-userDetails">
                             <h4>{user}</h4>
-                            <h4>{truncate(description,22) }</h4>
+                            <h4 className="post__scoial-description">{truncate(description,22) }</h4>
                         </div>
 
                         <h4 className="post__social-comments">View all 12 comments</h4>
