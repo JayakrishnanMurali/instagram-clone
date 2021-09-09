@@ -1,6 +1,10 @@
 .home {
   max-width: 950px;
   margin: 2rem auto;
+  display: flex;
+  justify-content: flex-start;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .home__story {
@@ -13,6 +17,15 @@
   max-height: 6rem;
   overflow-y: hidden;
   overflow-x: scroll;
+}
+
+.home__left {
+  flex: 0.7;
+}
+.home__right {
+  flex: 0.3;
+  position: fixed;
+  left: 60rem;
 }
 
 ::-webkit-scrollbar {

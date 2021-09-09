@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 import Post from './Post'
 import Story from './Story'
+import PeopleToFollow from './PeopleToFollow'
 
 function Home() {
     return (
@@ -58,7 +59,7 @@ function Home() {
 
                 </div>
 
-                <div className="home__right">
+                <div className="home__left">
 
                     <Post 
                     avatar="https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ec593cc431fb70007482137%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D1321%26cropX2%3D3300%26cropY1%3D114%26cropY2%3D2093"
@@ -98,6 +99,9 @@ function Home() {
 
                 </div>
 
+            </div>
+            <div className="home__right">
+                <PeopleToFollow />
             </div>
         </div>
     )

@@ -1,0 +1,44 @@
+.people__userData > img {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.people {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.people__userData {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem 1rem 0;
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.userDetails > h4 {
+  font-weight: 600;
+  font-size: 0.918rem;
+  margin-left: 1rem;
+}
+
+.people__displayName {
+  font-weight: 400 !important;
+  color: rgb(155, 155, 155);
+}
+
+.people > h4 {
+  font-size: 0.795rem;
+  font-weight: 600;
+  color: #3aadf7;
+  cursor: pointer;
+}

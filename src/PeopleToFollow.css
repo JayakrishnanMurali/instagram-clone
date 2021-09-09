@@ -1,0 +1,40 @@
+.follow {
+  max-width: 17rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.follow__seeAll {
+  font-size: 0.795rem;
+  font-weight: 600;
+  color: #111;
+  margin-top: 0.1rem;
+  cursor: pointer;
+}
+
+.follow__suggestionsSeeAll {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.follow__suggestions {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 0.956rem;
+  color: rgb(155, 155, 155);
+}
+
+.follow > p {
+  margin-top: 1.5rem;
+  font-size: 0.718rem;
+  color: rgb(155, 155, 155);
+  letter-spacing: 0.7px;
+}
+
+.follow__copyRights {
+  margin-top: 1rem;
+  font-size: 0.715rem;
+  font-weight: 600;
+  color: rgb(155, 155, 155);
+}
