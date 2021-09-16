@@ -1,3 +1,3 @@
 # React-App : Instagram Clone
 
-App-Link : https://instagram-clone-46900.web.app/
+App-Link : https://gifted-stonebraker-26a7d9.netlify.app/
